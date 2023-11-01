@@ -186,7 +186,7 @@ ul {
   font-weight: 600;
 }
 
-.techit-school-container > ul {
+.techit-school {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 32px;
@@ -194,7 +194,7 @@ ul {
   margin-top: 40px;
 }
 
-.techit-school-container > ul > li {
+.techit-school > li {
   width: 290px;
   height: 416px;
 }
@@ -217,7 +217,7 @@ ul {
   transform: scale(1.1);
 }
 
-.techit-school-container > ul > li > span {
+.techit-school > li > span {
   font-size: 14px;
   font-weight: 600;
   padding: 4px 8px;
@@ -239,13 +239,13 @@ ul {
   border: 1px solid #3f3f46;
 }
 
-.techit-school-container > ul > li > h3 {
+.techit-school > li > h3 {
   font-size: 20px;
   font-weight: 600;
   margin: 16px 0 8px 0;
 }
 
-.techit-school-container > ul > li > h5 {
+.techit-school > li > h5 {
   font-size: 18px;
 }
 
@@ -286,4 +286,63 @@ ul {
   margin-top: 20px;
   font-size: 14px;
   color: #737373;
+}
+
+.onboarding {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px 40px;
+  justify-items: center;
+  margin-top: 40px;
+}
+
+.onboarding > li > .img-container {
+  margin-bottom: 16px;
+  overflow: hidden;
+  border-radius: 12px;
+  width: 398px;
+  height: 198px;
+}
+
+.onboarding > li > .img-container > img {
+  width: 398px;
+  height: 198px;
+  transition: all 0.5s;
+}
+
+.onboarding > img:hover {
+  transform: scale(1.1);
+}
+
+.onboarding > li > h5 {
+  font-size: 14px;
+}
+
+.onboarding > li > h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 4px;
+}
+
+.onboarding > li > .price {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.onboarding > li > .price > span {
+  margin-left: 4px;
+  font-size: 14px;
+  color: #a3a3a3;
+  font-weight: 400;
+  text-decoration: line-through;
+}
+
+.onboarding > li > span {
+  color: #e67800;
+  background-color: #ffedd5;
+  padding: 2px 6px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 4px;
 }
